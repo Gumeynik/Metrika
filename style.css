@@ -68,3 +68,24 @@ color: #AD1818;
     cursor: pointer;
     line-height: 67px;
 }
+h3{
+    margin-top: 150px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    letter-spacing: -0.54px;
+    color: rgba(18, 18, 18, 1);
+}
+.projects__jk {
+    margin-top: 15px;
+    font-size: 30px;
+    letter-spacing: -0.9px;
+}
+.projects__link{
+    display: block;
+    margin-top: 15px; 
+    margin-bottom: 90px;
+    font-size: 20px;
+    letter-spacing: -0.6px;
+    color: #AD1818;
+    background-color: #fff;
+}
