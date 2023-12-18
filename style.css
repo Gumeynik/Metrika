@@ -1,0 +1,70 @@
+body {
+    font-family: 'Manrope', sans-serif;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    padding: 125px;
+}
+h1 { 
+    margin-top: 128px;
+    color:black;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -1.8px;
+    text-align: left;
+    width: 956px;
+    height: 120px;
+}
+p {
+    font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.6px;
+}
+h2 {
+    margin-top: 150px;
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.54px;
+text-transform: uppercase;
+color: #AD1818;
+
+}
+.p1 {
+    margin-top: 30px;
+    display: block;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.35px;
+}
+.image {
+    margin-top: 30px;
+    width: 1150px;
+    height: 500px;
+    background-image: url('kreslo.png');
+    padding-top: 379px;
+    padding-left: 40px;
+    padding-right: 680px;
+    color: #ffffff;
+}
+.btn {
+    margin-top: 30px;
+    display: block;
+    width: 250px;
+    height: 67px;
+    border: 1px solid rgb(173, 24, 24);
+    border-radius: 5px;
+    background-color: rgb(173, 24, 24);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 67px;
+}
