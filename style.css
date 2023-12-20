@@ -1,10 +1,12 @@
 body {
+    background-color: #fff;
     font-family: 'Manrope', sans-serif;
 }
 .container{
     width: 1400px;
     margin: 0 auto;
-    padding: 125px;
+    padding-left: 125px;
+    padding-right: 125px;
 }
 h1 { 
     margin-top: 128px;
@@ -17,12 +19,32 @@ h1 {
     width: 956px;
     height: 120px;
 }
+.image_box{
+    margin-top: 30px;
+    width: 1150px;
+    height: 500px;
+    background-image: url('kreslo.png');
+    /* padding-top: 379px;
+    padding-left: 40px;
+    padding-right: 680px; */
+    color: #ffffff;
+}
 p {
     font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: -0.6px;
+}
+.image_box{
+    position: relative;
+}
+.text{
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    width: 430px;
+    height: 81px;
 }
 h2 {
     margin-top: 150px;
@@ -44,16 +66,7 @@ color: #AD1818;
     line-height: normal;
     letter-spacing: -1.35px;
 }
-.image {
-    margin-top: 30px;
-    width: 1150px;
-    height: 500px;
-    background-image: url('kreslo.png');
-    padding-top: 379px;
-    padding-left: 40px;
-    padding-right: 680px;
-    color: #ffffff;
-}
+
 .btn {
     margin-top: 30px;
     display: block;
@@ -88,4 +101,48 @@ h3{
     letter-spacing: -0.6px;
     color: #AD1818;
     background-color: #fff;
+}
+
+.look_projects{
+    display: block;
+    border: 2px solid #AD1818;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: -0.9px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    color: #AD1818 ;
+    margin-bottom: 150px;
+}
+.look_projects:hover{
+background-color:rgba(173, 24, 24, 1);
+color: #ffffff;
+
+}
+
+.services_wrapper{
+    width: 1400px;
+    /* margin: 0 auto; */
+    padding-left: 375px;
+    padding-right: 375px;
+    color: #fff ;
+    width: 100%;
+    height: 1844px;
+    background-color: rgba(18, 18, 18, 1);
+}
+.services__p{
+    padding-top: 151px;
+    padding-bottom: 34px;
+    font-size: 18px;
+    letter-spacing: -0.54px;
+}
+.services_wrapper_service{
+    margin-top: 15px;
+    margin-bottom: 60px;
+    font-size: 30px;
+    letter-spacing: -0.9px;
+}
+.services_wrapper_service:nth-last-child(1){
+    margin-bottom: 150px;
 }
