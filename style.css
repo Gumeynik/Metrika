@@ -126,6 +126,7 @@ color: #ffffff;
     height: 1844px;
     background-color: rgba(18, 18, 18, 1);
     margin: 0 auto;
+    width: 100%;
 }
 .services__p {
     padding-top: 151px;
@@ -134,12 +135,12 @@ color: #ffffff;
     letter-spacing: -0.54px;
     color: #fff;
 }
-.services_wrapper_service{
+.services_service{
     margin-top: 15px;
     margin-bottom: 60px;
     font-size: 30px;
     letter-spacing: -0.9px;
 }
-.services_wrapper_service:nth-last-child(1){
+.services_service:nth-last-child(1){
     margin-bottom: 150px;
 }
