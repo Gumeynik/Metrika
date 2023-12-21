@@ -54,7 +54,7 @@ font-weight: 400;
 line-height: normal;
 letter-spacing: -0.54px;
 text-transform: uppercase;
-color: #AD1818;
+
 
 }
 .p1 {
@@ -121,21 +121,18 @@ color: #ffffff;
 
 }
 
-.services_wrapper{
-    width: 1400px;
-    /* margin: 0 auto; */
-    padding-left: 375px;
-    padding-right: 375px;
+.services{
     color: #fff ;
-    width: 100%;
     height: 1844px;
     background-color: rgba(18, 18, 18, 1);
+    margin: 0 auto;
 }
-.services__p{
+.services__p {
     padding-top: 151px;
     padding-bottom: 34px;
     font-size: 18px;
     letter-spacing: -0.54px;
+    color: #fff;
 }
 .services_wrapper_service{
     margin-top: 15px;
