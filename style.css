@@ -170,3 +170,21 @@ color: #ffffff;
 .services_text:nth-last-child(1){
     margin-bottom: 150px;
 }
+.full-image{
+    position: relative;
+    background-image: url(krovat.png);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.full-image__text{
+    position: absolute;
+    font-size: 30px;
+    letter-spacing: -0.9px;
+    color: #fff;
+    width: 443px;
+    height: 82px;
+    bottom: 60px;
+    left: 125px;
+}
