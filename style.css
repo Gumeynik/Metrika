@@ -26,7 +26,7 @@ body {
     font-size: 18px;
 letter-spacing: -0.54px;
 }
-.nav__link_active{
+.nav__link_active:hover{
     text-decoration: underline;
     color: rgb(112, 112, 112);
 }
