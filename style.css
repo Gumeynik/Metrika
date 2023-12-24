@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #fff;
     font-family: 'Manrope', sans-serif;
@@ -24,7 +28,7 @@ letter-spacing: -0.54px;
 }
 .nav__link_active{
     text-decoration: underline;
-    color: rgb(161, 161, 161);
+    color: rgb(112, 112, 112);
 }
 .nav__link:nth-last-child(1){
     margin-right: 0px;
@@ -137,7 +141,7 @@ h3{
     color: #AD1818 ;
     margin-bottom: 150px;
 }
-.look_projects:hover{
+.projects__btn:hover{
 background-color:rgba(173, 24, 24, 1);
 color: #ffffff;
 
