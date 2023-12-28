@@ -12,7 +12,8 @@ body {
     padding: 0 15px;
 }
 .header{
-    padding-top: 32.82px;
+    padding-top: 33px;
+    margin-bottom: 70px;
 }
 .nav__logo{
     display: inline-block;
@@ -33,16 +34,15 @@ letter-spacing: -0.54px;
 .nav__link:nth-last-child(1){
     margin-right: 0px;
 }
-h1 { 
-    margin-top: 70px;
+.hero__tittle { 
     color:black;
     font-size: 60px;
     font-weight: 400;
     line-height: 60px;
     letter-spacing: -1.8px;
     text-align: left;
-    width: 956px;
-    height: 120px;
+    /* width: 956px; */
+    /* height: 120px; */
 }
 .hero__box{
     position: relative;
@@ -54,6 +54,7 @@ h1 {
     padding-left: 40px;
     padding-right: 680px; */
     color: #ffffff;
+    margin-bottom: 150px;
 }
 p {
     font-size: 20px;
@@ -73,7 +74,7 @@ letter-spacing: -0.6px;
 
 
 h2 {
-    margin-top: 150px;
+
     font-size: 18px;
 font-style: normal;
 font-weight: 400;
@@ -106,9 +107,10 @@ text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
     line-height: 67px;
+    margin-bottom: 150px;
 }
 h3{
-    margin-top: 150px;
+    
     margin-bottom: 30px;
     font-size: 18px;
     letter-spacing: -0.54px;
