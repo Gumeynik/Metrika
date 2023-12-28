@@ -179,6 +179,7 @@ color: #ffffff;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
+    margin-bottom: 150px;
 }
 .full-image__text{
     position: absolute;
@@ -188,5 +189,47 @@ color: #ffffff;
     width: 443px;
     height: 82px;
     bottom: 60px;
-    left: 125px;
+    left: 375px;
+}
+.contacts__email{
+    padding-bottom: 160px;
+}
+.contacts__tittle::before{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    left: -3px;
+    width: 24px;
+    height: 24px;
+    background-image: url(iphone.png);
+    background-size: cover  ;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.contacts__tittle{
+    position: relative;
+    margin-bottom: 32px;
+    font-size: 18px;
+    letter-spacing: -0.54px;
+}
+.contacts__number{
+    margin-bottom: 30px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -1.8px;
+}
+.contacts__email {
+    font-family: Manrope;
+    font-size: 60px;
+    line-height: 60px; 
+    letter-spacing: -1.8px;
+    opacity: 0.5;
+}
+.footer{
+        color: #fff ;
+        height: 229px;
+        background-color: rgba(18, 18, 18, 1);
+        margin: 0 auto;
+        width: 100%;
 }
