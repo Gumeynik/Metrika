@@ -182,14 +182,15 @@ color: #ffffff;
     margin-bottom: 150px;
 }
 .full-image__text{
-    position: absolute;
+    /* position: absolute; */
+    padding-top: 755px;
     font-size: 30px;
     letter-spacing: -0.9px;
     color: #fff;
     width: 443px;
     height: 82px;
-    bottom: 60px;
-    left: 375px;
+    /* bottom: 60px;
+    left: 375px; */
 }
 .contacts__email{
     padding-bottom: 160px;
@@ -230,7 +231,6 @@ color: #ffffff;
         color: #fff ;
         height: 229px;
         background-color: rgba(18, 18, 18, 1);
-        margin: 0 auto;
         width: 100%;
 }
 .nav__footer{
