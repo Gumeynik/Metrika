@@ -12,18 +12,18 @@ body {
     padding: 0 15px;
 }
 .header{
-    padding-top: 33px;
-    margin-bottom: 70px;
+    padding-top: 30px;
+    margin-bottom: 73px;
 }
 .nav__logo{
     display: inline-block;
-    margin-right: 545.46px;
+    margin-right: 554px;
 }
 .nav{
     display: inline-block;
 }
 .nav__link{
-    margin-right: 60px;
+    margin-right: 57px;
     font-size: 18px;
 letter-spacing: -0.54px;
 }
@@ -41,6 +41,7 @@ letter-spacing: -0.54px;
     line-height: 60px;
     letter-spacing: -1.8px;
     text-align: left;
+    width: 956px; 
 }
 .hero__box{
     position: relative;
@@ -80,7 +81,7 @@ letter-spacing: -0.54px;
 text-transform: uppercase;
 }
 .about{
-    margin-bottom: 150px;
+    margin-bottom: 153px;
 }
 .about__text {
     margin-top: 30px;
@@ -88,14 +89,15 @@ text-transform: uppercase;
     font-size: 45px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    /* line-height: normal; */
     letter-spacing: -1.35px;
+    width: 1048px;
 }
 
 .about__btn {
-    margin-top: 30px;
+    margin-top: 25px;
     display: block;
-    width: 250px;
+    width: 255px;
     height: 67px;
     border: 1px solid rgb(173, 24, 24);
     border-radius: 5px;
@@ -105,13 +107,15 @@ text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
     line-height: 67px;
+    font-size: 20px;
+    letter-spacing: -0.6px;
 }
 .projects{
     margin-bottom: 150px;
 }
 h3{
     
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     font-size: 18px;
     letter-spacing: -0.54px;
     color: rgba(18, 18, 18, 1);
@@ -123,8 +127,8 @@ h3{
 }
 .projects__link{
     display: block;
-    margin-top: 15px; 
-    margin-bottom: 90px;
+    margin-top: 18px; 
+    margin-bottom: 93px;
     font-size: 20px;
     letter-spacing: -0.6px;
     color: #AD1818;
@@ -138,7 +142,7 @@ h3{
     text-align: center;
     font-size: 30px;
     letter-spacing: -0.9px;
-    padding-top: 56px;
+    padding-top: 64px;
     padding-bottom: 56px;
     color: #AD1818 ;
 }
@@ -155,7 +159,7 @@ color: #ffffff;
     width: 100%;
 }
 .services__title {
-    padding-top: 150px;
+    padding-top: 154px;
     padding-bottom: 4px;
     font-size: 18px;
     letter-spacing: -0.54px;
@@ -170,29 +174,29 @@ color: #ffffff;
 .full-image{
     position: relative;
     background-image: url(krovat.png);
-    height: 900px;
+    height: 717px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
     margin-bottom: 150px;
 }
 .full-image__text{
-    padding-top: 755px;
+    padding-top: 576px;
     font-size: 30px;
     letter-spacing: -0.9px;
     color: #fff;
     width: 443px;
     height: 82px;
 }
-.contacts__email{
+/* .contacts__email{
     padding-bottom: 160px;
-}
+} */
 .contacts__title::before{
     content: '';
     display: block;
     position: absolute;
     bottom: 30px;
-    left: -3px;
+    left: -5px;
     width: 24px;
     height: 24px;
     background-image: url(iphone.png);
@@ -200,11 +204,11 @@ color: #ffffff;
     background-repeat: no-repeat;
     background-position: 50%;
 }
-.contacts__tittle{
+.contacts__title{
     position: relative;
-    margin-bottom: 32px;
     font-size: 18px;
     letter-spacing: -0.54px;
+    margin-bottom: 32px;
 }
 .contacts__number{
     margin-bottom: 30px;
@@ -218,6 +222,7 @@ color: #ffffff;
     line-height: 60px; 
     letter-spacing: -1.8px;
     opacity: 0.5;
+    margin-bottom: 150px;
 }
 .footer{
         color: #fff ;
