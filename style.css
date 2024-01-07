@@ -27,7 +27,7 @@ body {
     font-size: 18px;
 letter-spacing: -0.54px;
 }
-.nav__link_active:hover{
+.nav__link:hover{
     text-decoration: underline;
     color: rgb(112, 112, 112);
 }
@@ -232,7 +232,7 @@ color: #ffffff;
 }
 .nav__footer{
     margin: 0 auto;
-    width: 473px;
+    width: 464px;
     padding-top: 60px;
     padding-bottom: 87px;
 }
