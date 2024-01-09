@@ -52,7 +52,6 @@ letter-spacing: -0.54px;
     color: #ffffff;
     background-size: cover  ;
     background-repeat: no-repeat;
-    margin-bottom: 150px;
 }
 p {
     font-size: 20px;
@@ -63,13 +62,16 @@ letter-spacing: -0.6px;
 }
 
 .hero__text{
+    color: #fff;
     position: absolute;
     left: 40px;
     bottom: 40px;
     width: 430px;
     height: 81px;
 }
-
+.hero{
+    margin-bottom: 150px;
+}
 
 h2 {
 
@@ -120,7 +122,7 @@ h3{
     letter-spacing: -0.54px;
     color: rgba(18, 18, 18, 1);
 }
-.projects__text {
+.projects__heading {
     margin-top: 15px;
     font-size: 30px;
     letter-spacing: -0.9px;
@@ -165,7 +167,7 @@ color: #ffffff;
     letter-spacing: -0.54px;
     color: #fff;
 }
-.services_text{
+.services__heading{
     margin-top: 15px;
     margin-bottom: 60px;
     font-size: 30px;
@@ -217,11 +219,14 @@ color: #ffffff;
     letter-spacing: -1.8px;
 }
 .contacts__email {
-    font-family: Manrope;
+    display: inline-block;
     font-size: 60px;
-    line-height: 60px; 
+    line-height: 70px; 
     letter-spacing: -1.8px;
     opacity: 0.5;
+    border-bottom: 2px solid #121212;
+}
+.contacts{
     margin-bottom: 150px;
 }
 .footer{
