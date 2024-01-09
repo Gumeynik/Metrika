@@ -122,14 +122,14 @@ h3{
     letter-spacing: -0.54px;
     color: rgba(18, 18, 18, 1);
 }
-.projects__heading {
-    margin-top: 15px;
+.projects__text{
+    margin-top: 19px;
     font-size: 30px;
     letter-spacing: -0.9px;
 }
 .projects__link{
     display: block;
-    margin-top: 18px; 
+    margin-top: 26px; 
     margin-bottom: 93px;
     font-size: 20px;
     letter-spacing: -0.6px;
@@ -144,7 +144,7 @@ h3{
     text-align: center;
     font-size: 30px;
     letter-spacing: -0.9px;
-    padding-top: 64px;
+    padding-top: 62px;
     padding-bottom: 56px;
     color: #AD1818 ;
 }
@@ -167,9 +167,11 @@ color: #ffffff;
     letter-spacing: -0.54px;
     color: #fff;
 }
-.services__heading{
-    margin-top: 15px;
-    margin-bottom: 60px;
+.services__img{
+    margin-bottom: 20px;
+}
+.services__text{
+    margin-bottom: 66px;
     font-size: 30px;
     letter-spacing: -0.9px;
 }
