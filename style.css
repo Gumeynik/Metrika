@@ -74,7 +74,6 @@ letter-spacing: -0.6px;
 }
 
 h2 {
-
     font-size: 18px;
 font-style: normal;
 font-weight: 400;
@@ -83,7 +82,7 @@ letter-spacing: -0.54px;
 text-transform: uppercase;
 }
 .about{
-    margin-bottom: 153px;
+    margin-bottom: 150px;
 }
 .about__text {
     margin-top: 30px;
@@ -115,28 +114,28 @@ text-transform: uppercase;
 .projects{
     margin-bottom: 150px;
 }
-h3{
-    
-    margin-bottom: 35px;
-    font-size: 18px;
-    letter-spacing: -0.54px;
-    color: rgba(18, 18, 18, 1);
-}
 .projects__text{
-    margin-top: 19px;
+    margin-top: 20px;
+    margin-bottom: 26px;
     font-size: 30px;
     letter-spacing: -0.9px;
+    color: rgba(18, 18, 18, 1);
+}
+.projects__title{
+    margin-bottom: 30px;
 }
 .projects__link{
     display: block;
     margin-top: 26px; 
-    margin-bottom: 93px;
+
     font-size: 20px;
     letter-spacing: -0.6px;
     color: #AD1818;
     background-color: #fff;
 }
-
+.projects__list{
+    margin-bottom: 92px;
+}
 .projects__btn{
     display: block;
     border: 2px solid #AD1818;
@@ -144,8 +143,8 @@ h3{
     text-align: center;
     font-size: 30px;
     letter-spacing: -0.9px;
-    padding-top: 62px;
-    padding-bottom: 56px;
+    padding-top: 61px;
+    padding-bottom: 59px;
     color: #AD1818 ;
 }
 .projects__btn:hover{
@@ -155,23 +154,24 @@ color: #ffffff;
 
 .services{
     color: #fff ;
-    height: 1844px;
     background-color: rgba(18, 18, 18, 1);
-    margin: 0 auto;
-    width: 100%;
+padding-bottom: 90px;
 }
 .services__title {
-    padding-top: 154px;
-    padding-bottom: 4px;
+    padding-top: 151px;
+    padding-bottom: 35px;
     font-size: 18px;
     letter-spacing: -0.54px;
     color: #fff;
+}
+.services__list{
+    margin-bottom: 66px;
 }
 .services__img{
     margin-bottom: 20px;
 }
 .services__text{
-    margin-bottom: 66px;
+
     font-size: 30px;
     letter-spacing: -0.9px;
 }
@@ -182,7 +182,7 @@ color: #ffffff;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
-    margin-bottom: 150px;
+    margin-bottom: 191px;
 }
 .full-image__text{
     padding-top: 576px;
@@ -199,7 +199,7 @@ color: #ffffff;
     content: '';
     display: block;
     position: absolute;
-    bottom: 30px;
+    bottom: 34px;
     left: -5px;
     width: 24px;
     height: 24px;
@@ -237,11 +237,19 @@ color: #ffffff;
         background-color: rgba(18, 18, 18, 1);
         width: 100%;
 }
-.nav__footer{
+.footer__nav{
     margin: 0 auto;
-    width: 464px;
-    padding-top: 60px;
-    padding-bottom: 87px;
+    width: 459px;
+    padding-top: 63px;
+    padding-bottom: 92px;
+}
+.footer__link{
+    margin-right: 52px;
+    font-size: 18px;
+letter-spacing: -0.54px;
+}
+.footer__link:last-child{
+    margin-right: 0;
 }
 .footer__text{
     text-align: center;
