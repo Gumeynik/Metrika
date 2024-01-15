@@ -11,19 +11,23 @@
 </head>
 <body>
 
-<section class="header">
+<header class="header">
     <div class="container">
         <a class="nav__logo" href="#">
         <img src="logo.png" alt="logo">
         </a>
         <div class="nav">
-            <a class="nav__link nav__link_active" href="#about">О НАС</a>
-            <a class="nav__link" href="#projects">ПРОЕКТЫ</a>
-            <a class="nav__link" href="#services">УСЛУГИ</a>
-            <a class="nav__link" href="#">КОНТАКТЫ</a>
+            <ul class="header__list">
+                <li class="nav__link"><a  href="#about">О НАС</a></li>
+                <li class="nav__link"><a class="nav__link" href="#projects">ПРОЕКТЫ</a></li>
+                <li class="nav__link"><a class="nav__link" href="#services">УСЛУГИ</a></li>
+                <li class="nav__link"><a class="nav__link" href="#">КОНТАКТЫ</a></li>
+            </ul>
         </div>
     </div>
-</section>
+</header>
+
+<main>
 
 <section  class="hero">
     <div class="container">
@@ -123,17 +127,18 @@
     <a href="mailto:hello@mail.com">hello@mail.com</a>
 </p>
 </div>
-
 </section>
-
+</main>
 <footer class="footer">
-    <div class="footer__nav">
+    <div class="container">
+    <nav class="footer__nav">
         <a class="footer__link" href="#about">О НАС</a>
         <a class="footer__link" href="#projects">ПРОЕКТЫ</a>
         <a class="footer__link" href="#services">УСЛУГИ</a>
         <a class="footer__link" href="#">КОНТАКТЫ</a>
-    </div>
+    </nav>
     <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
+    </div>
 </footer>
 
 </body>

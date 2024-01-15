@@ -26,6 +26,7 @@ body {
     margin-right: 57px;
     font-size: 18px;
 letter-spacing: -0.54px;
+display: inline-block;
 }
 .nav__link:hover{
     text-decoration: underline;
@@ -114,11 +115,14 @@ text-transform: uppercase;
 .projects{
     margin-bottom: 150px;
 }
+.projects__image{
+    
+}
 .projects__box{
     width: 100%;
     height: 450px;
 }
-.projects__img{
+.projects__image{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -249,9 +253,9 @@ padding-top: 151px;
 }
 .footer{
         color: #fff ;
-        height: 229px;
         background-color: rgba(18, 18, 18, 1);
         width: 100%;
+        padding-bottom: 30px;
 }
 .footer__nav{
     margin: 0 auto;
