@@ -43,10 +43,10 @@ display: inline-block;
     letter-spacing: -1.8px;
     text-align: left;
     width: 956px; 
+    margin-bottom: 30px;
 }
 .hero__box{
     position: relative;
-    margin-top: 30px;
     width: 100%;
     height: 500px;
     background-image: url('kreslo.png');
@@ -74,19 +74,18 @@ letter-spacing: -0.6px;
     margin-bottom: 150px;
 }
 
-h2 
 .about__title{font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: -0.54px;
 text-transform: uppercase;
+margin-bottom: 30px;
 }
 .about{
     margin-bottom: 150px;
 }
 .about__text {
-    margin-top: 30px;
     display: block;
     font-size: 45px;
     font-style: normal;
@@ -114,20 +113,18 @@ text-transform: uppercase;
 .projects{
     margin-bottom: 150px;
 }
-.projects__image{
-    
-}
 .projects__box{
     width: 100%;
     height: 450px;
+    margin-bottom: 22px;
 }
 .projects__image{
     width: 100%;
     height: 100%;
     object-fit: cover;
+
 }
 .projects__text{
-    margin-top: 20px;
     margin-bottom: 26px;
     font-size: 30px;
     letter-spacing: -0.9px;
@@ -144,15 +141,13 @@ text-transform: uppercase;
 }
 .projects__link{
     display: block;
-    margin-top: 26px; 
-
     font-size: 20px;
     letter-spacing: -0.6px;
     color: #AD1818;
     background-color: #fff;
 }
 .projects__list{
-    margin-bottom: 92px;
+    margin-bottom: 90px;
 }
 .projects__btn{
     display: block;
@@ -284,6 +279,7 @@ letter-spacing: -0.54px;
     width: 100%;
 padding-left: 15px;
 padding-right: 17px;
+margin-bottom: 120px;
 }
 .hero__title{
 font-size: 50px;
@@ -292,7 +288,8 @@ letter-spacing: -1.5px;
 .about{
     width: 100%;
     padding-left: 15px;
-padding-right: 250px;
+    padding-right: 250px;
+    margin-bottom: 140px;
 }
 .about__text{
     font-size: 35px;
@@ -306,16 +303,21 @@ padding-right: 250px;
 .projects__text{
     font-size: 25px;
 letter-spacing: -0.75px;
+margin-bottom: 10px;
+}.projects__list{
+    margin-bottom: 80px;
 }
 }
 @media (max-width: 767px) {
     .hero{
     padding-left: 13px;
     padding-right: 12px;
+    margin-bottom: 80px;
     }
     .hero__title{
         font-size: 30px;
         letter-spacing: -0.9px;
+        margin-bottom: 25px;
         }
         .hero__text{
             font-size: 16px;
@@ -324,10 +326,12 @@ letter-spacing: -0.75px;
     .about{
         padding-left: 12px;
     padding-right: 17px;
+    margin-bottom: 80px;
     }
     .about__title{
         font-size: 14px;
     letter-spacing: -0.42px;
+    margin-bottom: 20px;
     }
     .about__text{
         font-size: 22px;
@@ -339,9 +343,14 @@ letter-spacing: -0.75px;
     .projects__title{
         font-size: 14px;
         letter-spacing: -0.42px;
+        margin-bottom: 20px;
     }
     .projects__text{
         font-size: 18px;
         letter-spacing: -0.54px;
+        margin-bottom: 11px;
+    }
+    .projects__list{
+        margin-bottom: 49px;
     }
 }
