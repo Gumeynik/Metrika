@@ -290,3 +290,17 @@ padding-right: 250px;
     padding-right: 17px;
 }
 }
+@media (max-width: 767px) {
+    .hero{
+    padding-left: 13px;
+    padding-right: 12px;
+    }
+    .about{
+        padding-left: 12px;
+    padding-right: 17px;
+    }
+    .projects{
+        padding-left: 13px;
+        padding-right: 12px;
+    }
+}
