@@ -12,6 +12,10 @@ body {
     max-width: 1180px;
     padding: 0 15px;
 }
+h2{
+    font-size: 18px;
+letter-spacing: -0.54px;
+}
 .header{
     padding-top: 30px;
     margin-bottom: 73px;
@@ -75,12 +79,7 @@ letter-spacing: -0.6px;
     margin-bottom: 150px;
 }
 
-.about__title{font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: -0.54px;
-text-transform: uppercase;
+.about__title{
 margin-bottom: 30px;
 }
 .about{
@@ -132,12 +131,6 @@ margin-bottom: 30px;
     color: rgba(18, 18, 18, 1);
 }
 .projects__title{
-    font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: -0.54px;
-text-transform: uppercase;
     margin-bottom: 30px;
 }
 .projects__link{
@@ -168,7 +161,7 @@ color: #ffffff;
 .services{
     color: #fff ;
     background-color: rgba(18, 18, 18, 1);
-padding-bottom: 90px;
+padding-bottom: 150px;
 padding-top: 151px;
 }
 .services__wrapper{
@@ -200,12 +193,14 @@ padding-top: 151px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 163px;
+    padding: 21px;
     height: 40px;
     border-radius: 5px;
     background: #AD1818;
+}
+.services__price-text{
     font-size: 22px;
-    letter-spacing: -0.66px;
+    letter-spacing: -0.66px;  
 }
 .services__img{
     width: 100%;
@@ -217,6 +212,17 @@ padding-top: 151px;
     font-size: 30px;
     letter-spacing: -0.9px;
 }
+.feedback{
+
+}
+.feedback__title{
+
+}
+
+
+
+
+
 .full-image{
     position: relative;
     background-image: url(krovat.png);
@@ -356,9 +362,11 @@ margin-bottom: 10px;
 }
 .services__price{
     left: 32px;
+    padding: 26px;
+}
+.services__price-text{
     font-size: 20px;
     letter-spacing: -0.6px;
-
 }
 .services__box{
     height: 315px;
@@ -459,10 +467,13 @@ margin-bottom: 10px;
         margin-bottom: 10px;
     }
     .services__price{
-        left: 24;
+        left: 24px;
+        top: 24px;
         top: 23px;
-        width: 124px;
         height: 30px;
+        padding: 24px;
+    }
+    .services__price-text{
         font-size: 14px;
         letter-spacing: -0.42px;
     }
