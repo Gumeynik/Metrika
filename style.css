@@ -163,6 +163,7 @@ color: #ffffff;
     background-color: rgba(18, 18, 18, 1);
 padding-bottom: 150px;
 padding-top: 151px;
+margin-bottom: 150px;
 }
 .services__wrapper{
     display: flex;
@@ -216,9 +217,30 @@ padding-top: 151px;
 
 }
 .feedback__title{
+margin-bottom: 30px;
+}
+.feedback__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 80px;
 
 }
-
+.feedback__box{
+    width: calc( 50% - 25px); 
+}
+.feedback__box_big{
+    max-width: 861px;
+}
+.feedback__box-title{
+    font-size: 45px;
+    letter-spacing: -1.35px;
+    margin-bottom: 14px;
+}
+.feedback__text{
+    font-size: 22px;
+    letter-spacing: -0.66px;   
+}
 
 
 
@@ -305,8 +327,8 @@ letter-spacing: -0.54px;
 @media (max-width: 961px) {
     .container{
         margin: 0 auto;
-        max-width: 1150px;
-        padding: 0 0px;
+        max-width: 1180px;
+        padding: 0 15px;
     }
 .hero{
     width: 100%;
@@ -347,8 +369,16 @@ letter-spacing: -1.5px;
     font-size: 25px;
 letter-spacing: -0.75px;
 margin-bottom: 10px;
-}.projects__list{
+}
+.projects__list{
     margin-bottom: 80px;
+}
+.services{
+    margin-bottom: 117px;
+}
+.feedback__text{
+    font-size: 20px;    
+    letter-spacing: -0.6px;
 }
 .services__wrapper{
     row-gap: 80px;
@@ -371,6 +401,16 @@ margin-bottom: 10px;
 .services__box{
     height: 315px;
     margin-bottom: 15px;
+}
+.feedback__box{
+    width: calc( 50% - 25px); 
+}
+.feedback__box_big{
+    max-width: 694px;
+}
+.feedback__box-title{
+    font-size: 35px;
+    letter-spacing: -1.05px;
 }
 }
 @media (max-width: 491px) {
@@ -448,6 +488,9 @@ margin-bottom: 10px;
         padding-top: 34px;
         padding-bottom: 61px;
     }
+    .services{
+        margin-bottom: 80px;
+    }
     .services__title{
         font-size: 14px;
         letter-spacing: -0.42px;
@@ -480,5 +523,20 @@ margin-bottom: 10px;
     .services__text{
     font-size: 18px;
     letter-spacing: -0.54px;
+    }
+    .feedback__box-title{
+        margin-bottom: 22px;
+    }
+    .feedback__box{
+        width: 100%; 
+    }
+    .feedback__text{
+        font-size: 16px;
+        letter-spacing: -0.48px;
+        
+    }
+    .feedback__box-title{
+        font-size: 25px;
+        letter-spacing: -0.75px;
     }
 }
