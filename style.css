@@ -602,4 +602,32 @@ letter-spacing: -0.6px;
         font-size: 25px;
         letter-spacing: -0.75px;
     }
+    .gallery__slide{
+        height: 408px;
+    }
+    .gallery__title-wrapper{
+        top: 61px;
+        left: 0 ;
+
+    }
+    .gallery__title{
+        font-size: 14px;
+    letter-spacing: -0.4px;
+    }
+    .gallery__controls-wrapper{
+        left: 0;
+        top: 189px;
+        max-width: 100%;
+    }
+    .gallery__controls{
+        display: flex;
+        justify-content: space-between;
+    }
+    .gallery__slide-text{
+        left: 13px;
+        bottom: 60px;
+        font-size: 19px;
+        letter-spacing: -0.5px;
+        max-width: 287px;
+    }
 }
