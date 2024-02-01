@@ -73,7 +73,6 @@ letter-spacing: -0.6px;
     left: 40px;
     bottom: 40px;
     max-width: 430px;
-    height: 81px;
 }
 .hero{
     margin-bottom: 150px;
@@ -96,8 +95,8 @@ margin-bottom: 30px;
 
 .about__btn {
     margin-top: 25px;
-    display: block;
-    max-width: 255px;
+    display: inline-block;
+    padding: 0 40px;
     height: 67px;
     border: 1px solid rgb(173, 24, 24);
     border-radius: 5px;
@@ -286,7 +285,6 @@ object-fit: cover;
     letter-spacing: -0.9px;
     color: #fff;
     max-width: 443px;
-    height: 82px;
 }
 .gallery__controls-wrapper{
     width: 100%;
