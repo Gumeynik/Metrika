@@ -244,10 +244,12 @@ margin-bottom: 30px;
 
 .full-image{
 
+margin-bottom: 150px;
 }
 
 .gallery{
     position: relative;
+    height: 717px;
 }
 .gallery__title-wrapper{
     position: absolute;
@@ -292,48 +294,70 @@ object-fit: cover;
     top: 515px;
     z-index: 112;
 }
-.gallery__controls{
+.gallery__control-prev:hover{
+    opacity: 0.5;
+}
+.gallery__control-next:hover{
+    opacity: 0.5;
+}
 
+
+
+
+
+
+.contacts{
+    margin-bottom: 150px;
 }
-/* .gallery__controls{
-    display: flex;
-    justify-content: space-between;
-} */
-.contacts__title::before{
-    content: '';
-    display: block;
-    position: absolute;
-    bottom: 34px;
-    left: -5px;
-    width: 24px;
-    height: 24px;
-    background-image: url(iphone.png);
-    background-size: cover  ;
-    background-repeat: no-repeat;
-    background-position: 50%;
-}
+
 .contacts__title{
     position: relative;
     font-size: 18px;
     letter-spacing: -0.54px;
-    margin-bottom: 32px;
+    margin-bottom: 74px;
+}
+.contacts__inner{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .contacts__number{
+    position: relative;
     margin-bottom: 30px;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -1.8px;
 }
+.contacts__number::before{
+    content: '';
+    position: absolute;
+    top: -40px;
+    left: -4px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image:  url(iphone.png);
+    background-size: cover;
+}
+
 .contacts__email {
-    display: inline-block;
+    position: relative;
     font-size: 60px;
-    line-height: 70px; 
+    line-height: 60px; 
     letter-spacing: -1.8px;
     opacity: 0.5;
-    border-bottom: 2px solid #121212;
+    /* border-bottom: 2px solid #121212; */
 }
-.contacts{
-    margin-bottom: 150px;
+.contacts__email::before{
+    content: '';
+    position: absolute;
+    top: -40px;
+    left: -4px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image:  url(email.png);
+    background-size: cover;
 }
 .footer{
         color: #fff ;
@@ -342,18 +366,20 @@ object-fit: cover;
         padding-bottom: 30px;
 }
 .footer__nav{
+    display: flex;
+    justify-content: space-between;
     margin: 0 auto;
-    width: 459px;
+    max-width: 450px;
     padding-top: 63px;
     padding-bottom: 92px;
 }
 .footer__link{
-    margin-right: 52px;
+    display: block;
     font-size: 18px;
 letter-spacing: -0.54px;
 }
-.footer__link:last-child{
-    margin-right: 0;
+.footer__link:hover{
+    opacity: 0.5;
 }
 .footer__text{
     text-align: center;
@@ -449,6 +475,12 @@ margin-bottom: 10px;
     font-size: 35px;
     letter-spacing: -1.05px;
 }
+.full-image{
+    margin-bottom: 120px;
+}
+.gallery{
+    height: 536px;
+}
 .gallery__slide{
     height: 536px;
 }
@@ -472,6 +504,16 @@ letter-spacing: -0.6px;
     font-size: 25px;
     letter-spacing: -0.75px;
     max-width: 370px;
+}
+.contacts__number{
+font-size: 45px;
+line-height: 60px;
+letter-spacing: -1.35px;
+}
+.contacts__email{
+font-size: 45px;
+line-height: 60px;
+letter-spacing: -1.35px;
 }
 }
 @media (max-width: 491px) {
@@ -600,6 +642,12 @@ letter-spacing: -0.6px;
         font-size: 25px;
         letter-spacing: -0.75px;
     }
+    .full-image{
+        margin-bottom: 80px;
+    }
+    .gallery{
+        height: 408px;
+    }
     .gallery__slide{
         height: 408px;
     }
@@ -627,5 +675,42 @@ letter-spacing: -0.6px;
         font-size: 19px;
         letter-spacing: -0.5px;
         max-width: 287px;
+    }
+    .contacts__title{
+        margin-bottom: 58px;
+        font-size: 14px;
+        letter-spacing: -0.42px;
+    }
+    .contacts__inner{
+        gap: 20px;
+    }
+    .contacts__number::before{
+        top: 20;
+    }
+    .contacts_email::before{
+        top: 20;
+    }
+    .contacts__number{
+        font-size: 35px;
+        line-height: 45px;
+        letter-spacing: -1.05px;
+        }
+        .contacts__email{
+        font-size: 35px;
+        line-height: 45px;
+        letter-spacing: -1.05px;
+    }
+    .footer__nav{
+        max-width: 281px;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .footer__link{
+        font-size: 12px;
+    letter-spacing: -0.36px;
+    }
+    .footer__text{
+        font-size: 13px;
+        letter-spacing: -0.4px;
     }
 }
