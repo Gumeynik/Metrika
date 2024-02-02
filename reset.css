@@ -21,3 +21,21 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;	margin: 0;
 	font: inherit;
 	vertical-align: baseline;}
 a{color:inherit;}
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+a,
+button,
+input[type="submit"] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
