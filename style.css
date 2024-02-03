@@ -169,6 +169,7 @@ margin-bottom: 150px;
     flex-wrap: wrap;
     justify-content: space-between ;
     row-gap: 85px;
+    margin-bottom: 104px;
 }
 .services__title {
     display:inline-block;
@@ -211,6 +212,59 @@ margin-bottom: 150px;
     display: inline-block;
     font-size: 30px;
     letter-spacing: -0.9px;
+}
+.services__order{
+    display: block;
+    width: 100%;
+    border: 2px solid #AD1818;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: -0.9px;
+    padding-top: 61px;
+    padding-bottom: 59px;
+    background-color: #AD1818;
+    color: #fff ;
+}
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+.popup_open{
+    opacity: 1;
+    visibility: visible;
+}
+.popup__content{
+    position: relative;
+    text-align: center;
+    width: 777px;
+    height: 707px;
+    background-color: #fff;
+    color: black;
+}
+.popup__title{
+    margin-top: 94px;
+    margin-bottom: 4px;
+}
+.popup__close-btn{
+    position: absolute;
+    top: 32px;
+    right: 34px;
+    background-image: url(popup-close.png);
+    width: 50px;
+    height: 50px;
+}
+.body_fixed{
+    overflow: hidden;
 }
 .feedback{
 margin-bottom: 157px;
@@ -319,7 +373,6 @@ object-fit: cover;
 .contacts__inner{
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 .contacts__number{
     position: relative;
@@ -327,6 +380,7 @@ object-fit: cover;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -1.8px;
+    width: 50%;
 }
 .contacts__number::before{
     content: '';
@@ -346,7 +400,7 @@ object-fit: cover;
     line-height: 60px; 
     letter-spacing: -1.8px;
     opacity: 0.5;
-    /* border-bottom: 2px solid #121212; */
+    width: 50%;
 }
 .contacts__email::before{
     content: '';
