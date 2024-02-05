@@ -393,6 +393,7 @@ object-fit: cover;
 .contacts__inner{
     display:flex;
     flex-wrap: wrap;
+    gap: 104px;
 }
 .contacts__number{
     position: relative;
@@ -400,8 +401,6 @@ object-fit: cover;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -1.8px;
-    width: 50%;
-    white-space: nowrap;
 }
 .contacts__number::before{
     content: '';
@@ -421,7 +420,6 @@ object-fit: cover;
     line-height: 60px; 
     letter-spacing: -1.8px;
     opacity: 0.5;
-    width: 50%;
 }
 .contacts__email::before{
     content: '';
@@ -434,7 +432,6 @@ object-fit: cover;
     background-image:  url(email.png);
     background-size: cover;
 }
-
 
 
 
@@ -588,6 +585,9 @@ letter-spacing: -0.6px;
     font-size: 25px;
     letter-spacing: -0.75px;
     max-width: 370px;
+}
+.contacts__inner{
+    gap: 114px;
 }
 .contacts__number{
 font-size: 45px;
