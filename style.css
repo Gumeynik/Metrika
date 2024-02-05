@@ -247,14 +247,24 @@ margin-bottom: 150px;
     position: relative;
     text-align: center;
     width: 777px;
-    height: 707px;
+    max-height: 707px;
+    padding: 94px 70px 86px 70px;
     background-color: #fff;
     color: black;
+    overflow-y: scroll;
+    border-radius: 10px;
+    z-index: 2000;
 }
 .popup__title{
-    margin-top: 94px;
     margin-bottom: 4px;
+    font-size: 45px;
+    letter-spacing: -1.35px;
 }
+.popup__text{
+    font-size: 18px;
+    letter-spacing: -0.54px;
+}
+
 .popup__close-btn{
     position: absolute;
     top: 32px;
@@ -262,6 +272,16 @@ margin-bottom: 150px;
     background-image: url(popup-close.png);
     width: 50px;
     height: 50px;
+}
+.popup__send{
+    width: 100%;
+    text-align: center;
+    padding: 20px ;
+    background-color: #AD1818;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    letter-spacing: -0.6px;
 }
 .body_fixed{
     overflow: hidden;
@@ -381,6 +401,7 @@ object-fit: cover;
     line-height: 60px;
     letter-spacing: -1.8px;
     width: 50%;
+    white-space: nowrap;
 }
 .contacts__number::before{
     content: '';
@@ -413,6 +434,10 @@ object-fit: cover;
     background-image:  url(email.png);
     background-size: cover;
 }
+.contacts__email-link
+
+
+
 .footer{
         color: #fff ;
         background-color: rgba(18, 18, 18, 1);
@@ -519,6 +544,11 @@ margin-bottom: 10px;
     height: 315px;
     margin-bottom: 15px;
 }
+.popup__content{
+    margin: 0 92px;
+    
+}
+
 .feedback__box{
     width: calc( 50% - 25px); 
 }
@@ -570,6 +600,15 @@ line-height: 60px;
 letter-spacing: -1.35px;
 }
 }
+
+
+
+
+
+
+
+
+
 @media (max-width: 491px) {
 
     .hero{
@@ -680,6 +719,21 @@ letter-spacing: -1.35px;
     .services__text{
     font-size: 18px;
     letter-spacing: -0.54px;
+    }
+    .popup__content{
+        margin: 0 7px;
+        padding: 80px 16px 80px 16px;
+    }
+    .popup__title{
+        font-size: 25px;
+        letter-spacing: -0.75px;
+    }
+    .popup__text{
+        font-size: 14px;
+        letter-spacing: -0.42px;
+    }
+    .popup__send{
+
     }
     .feedback__box-title{
         margin-bottom: 22px;
