@@ -790,6 +790,7 @@ letter-spacing: -1.35px;
         letter-spacing: -0.42px;
     }
     .contacts__inner{
+        flex-direction: column;
         gap: 20px;
     }
     .contacts__number::before{
