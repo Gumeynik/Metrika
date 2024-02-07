@@ -124,8 +124,12 @@
         <p class="popup__title">Заказать услугу</p>
         <p class="popup__text">Заполните форму, мы свяжемся с вами в течение суток</p>
         <button class="js-popup__close-btn popup__close-btn"></button>
-    
-    <button class="popup__send">Отправить</button>
+        <div class="popup__input-inner">
+            <input class="popup__input" type="text" placeholder="Имя">
+            <input class="popup__input" type="email" placeholder="Электронная почта">
+            <input class="popup__input" type="text" placeholder="Номер телефона">
+        </div>
+        <button class="popup__send">Отправить</button>
     </div>
    
 </div>
@@ -222,10 +226,12 @@
 <footer class="footer">
     <div class="container">
     <nav class="footer__nav">
-        <a class="footer__link" href="#about">О НАС</a>
-        <a class="footer__link" href="#projects">ПРОЕКТЫ</a>
-        <a class="footer__link" href="#services">УСЛУГИ</a>
-        <a class="footer__link" href="#">КОНТАКТЫ</a>
+        <ul class="footer__nav-wrapper">
+            <li class="footer__link" href="#projects">ПРОЕКТЫ</li>
+            <li class="footer__link" href="#about">О  НАС</li>
+            <li class="footer__link" href="#services">УСЛУГИ</li>
+            <li class="footer__link" href="#">КОНТАКТЫ</li>
+        </ul>
     </nav>
     <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
     </div>
