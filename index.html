@@ -14,21 +14,40 @@
 </head>
 <body>
 
-<!-- <header class="header">
+<header class="header">
     <div class="container">
-        <a class="nav__logo" href="#">
-        <img src="logo.png" alt="logo">
-        </a>
-        <div class="nav">
-            <ul class="header__list">
-                <li class="nav__link"><a  href="#about">О НАС</a></li>
-                <li class="nav__link"><a class="nav__link" href="#projects">ПРОЕКТЫ</a></li>
-                <li class="nav__link"><a class="nav__link" href="#services">УСЛУГИ</a></li>
-                <li class="nav__link"><a class="nav__link" href="#">КОНТАКТЫ</a></li>
+        <div class="nav">     
+               <a class="nav__logo" href="#"><img src="logo.png" alt="logo"></a>
+            <ul class="nav__header-list">
+                <li class="nav__item"><a  href="#about">О НАС</a></li>
+                <li class="nav__item"><a class="nav__link" href="#projects">ПРОЕКТЫ</a></li>
+                <li class="nav__item"><a class="nav__link" href="#services">УСЛУГИ</a></li>
+                <li class="nav__item"><a class="nav__link" href="#contacts">КОНТАКТЫ</a></li>
             </ul>
+            <button class="js-burger-btn burger-btn"> <span></span></button>
         </div>
     </div>
-</header> -->
+    <div class="js-burger burger">
+        <div class="js-burger__content burger__content">
+            <div class="burger__nav">     
+                <a class="burger__nav-logo" href="#"><img src="logo.png" alt="logo"></a>
+             <ul class="burger__nav-header-list">
+                 <li class="burger__nav_item"><a class="nav__link"  href="#about">О НАС</a></li>
+                 <li class="burger__nav_item"><a class="nav__link" href="#projects">ПРОЕКТЫ</a></li>
+                 <li class="burger__nav_item"><a class="nav__link" href="#services">УСЛУГИ</a></li>
+                 <li class="burger__nav_item"><a class="nav__link" href="#contacts">КОНТАКТЫ</a></li>
+             </ul>
+             <p class="burger__content-title">для связи:</p>
+             <div class="burger__content_number">
+                <a href="tel:+79358954535">+7 977 271-26-36</a>
+             </div>
+                <div class="burger__content_tg">
+                    <a href="https://t.me/Alxkbnk" target="_blank">Alxkbnk</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 
 <main>
 <section  class="hero">
@@ -209,14 +228,14 @@
 
 
 
-<section class="contacts">
+<section class="contacts" id="contacts">
     <div class="container">
 <h2 class="contacts__title">КОНТАКТЫ</h2>
 <div class="contacts__inner">
     <div class="contacts__number">
         <a href="tel:+79358954535">+7 977 271-26-36</a>
     </div>
-    <div class="contacts__email">
+    <div class="contacts__tg">
         <a href="https://t.me/Alxkbnk" target="_blank">Alxkbnk</a>
     </div>
 </div>
@@ -227,17 +246,19 @@
     <div class="container">
     <nav class="footer__nav">
         <ul class="footer__nav-wrapper">
-            <li class="footer__link" href="#projects">ПРОЕКТЫ</li>
-            <li class="footer__link" href="#about">О  НАС</li>
-            <li class="footer__link" href="#services">УСЛУГИ</li>
-            <li class="footer__link" href="#">КОНТАКТЫ</li>
+            <li  class="footer__item"><a href="#projects">ПРОЕКТЫ</a></li>
+            <li  class="footer__item"><a href="#about">О  НАС</a></li>
+            <li  class="footer__item"><a href="#services">УСЛУГИ</a></li>
+            <li  class="footer__item"><a href="#contacts">КОНТАКТЫ </a></li>
         </ul>
     </nav>
     <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
     </div>
 </footer>
+<script src="burger.js"></script>
 <script src="gallery.js"></script>
 <script src="popup.js"></script>
+
 </body>
 
 
