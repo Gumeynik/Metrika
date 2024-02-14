@@ -70,6 +70,7 @@ letter-spacing: -0.54px;
     height: 100%;
     background-color: #fff;
     overflow: auto;
+    z-index: 11111;
 }
 .burger__nav{
     margin-left: 30px;
@@ -714,7 +715,7 @@ font-size: 45px;
 line-height: 60px;
 letter-spacing: -1.35px;
 }
-.footer__nav-wrapper{
+.footer{
     padding-top: 60px;
 }
 }
