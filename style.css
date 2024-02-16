@@ -32,15 +32,15 @@ justify-content: space-between;
     display: flex;
     gap: 60px;
 }
-.nav__link{
+.nav__item{
     font-size: 18px;
 letter-spacing: -0.54px;
 }
-.nav__link:hover{
+.nav__item:hover{
     text-decoration: underline;
     color: rgb(112, 112, 112);
 }
-.nav__link:nth-last-child(1){
+.nav__item:nth-last-child(1){
     margin-right: 0px;
 }
 .burger-btn{
